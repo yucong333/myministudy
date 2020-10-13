@@ -1,0 +1,78 @@
+{
+    "pages": [{
+            "path": "pages/home/Home",
+            "style": {
+                "navigationBarTitleText": "                                      购物街",
+                "navigationBarBackgroundColor": "#f5745f",
+                "navigationBarTextStyle": "white"
+
+            }
+        },
+        {
+            "path": "pages/grid/Grid",
+            "style": {
+                "navigationBarTitleText": "                                      商品分类",
+                "navigationBarBackgroundColor": "#f5745f",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/cart/Cart",
+            "style": {
+                "navigationBarTitleText": "                                      购物车",
+                "navigationBarBackgroundColor": "#f5745f",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/person/Person",
+            "style": {
+                "navigationBarTitleText": "                                      我的",
+                "navigationBarBackgroundColor": "#f5745f",
+                "navigationBarTextStyle": "white"
+            }
+        },
+        {
+            "path": "pages/detail/Detail",
+            "style": {
+                "navigationBarTitleText": "                                      商品详情",
+                "navigationBarBackgroundColor": "#f5745f",
+                "navigationBarTextStyle": "white"
+            }
+        }
+    ],
+    "tabBar": {
+        "list": [{
+                "pagePath": "pages/home/Home",
+                "text": "首页",
+                "iconPath": "./static/tabbar/home-fill.png",
+                "selectedIconPath": "./static/tabbar/home.png"
+            },
+            {
+                "pagePath": "pages/grid/Grid",
+                "text": "分类",
+                "iconPath": "./static/tabbar/grid.png",
+                "selectedIconPath": "./static/tabbar/grid-fill.png"
+            },
+            {
+                "pagePath": "pages/cart/Cart",
+                "text": "购物车",
+                "iconPath": "./static/tabbar/cart.png",
+                "selectedIconPath": "./static/tabbar/cart-fill.png"
+            },
+            {
+                "pagePath": "pages/person/Person",
+                "text": "我的",
+                "iconPath": "./static/tabbar/person.png",
+                "selectedIconPath": "./static/tabbar/person-fill.png"
+            }
+        ]
+    },
+    "globalStyle": {
+        "navigationBarTextStyle": "black",
+        "navigationBarTitleText": "uni-app",
+        "navigationBarBackgroundColor": "#F8F8F8",
+        "backgroundColor": "#F8F8F8"
+    }
+
+}
